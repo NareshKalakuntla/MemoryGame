@@ -7,8 +7,15 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "GameViewController.h"
 
-@interface Memory_GameTests : XCTestCase
+@interface Memory_GameTests : XCTestCase {
+ 
+@private
+    GameViewController *gameVC;
+    
+}
+
 
 @end
 

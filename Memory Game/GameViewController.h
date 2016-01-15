@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GameViewController.h
 //  Memory Game
 //
 //  Created by Naresh Kalakuntla on 1/14/16.
@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface GameViewController : UIViewController 
 
 @property (nonatomic, strong) NSArray *photos; // of Flickr photo NSDictionary
+@property (weak, nonatomic) IBOutlet UILabel *movesLabel;
+
+- (void)startGame;
 
 @end
-

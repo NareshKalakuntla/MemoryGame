@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		226A14854F23BB74AC12BA4A /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		58A32B63C82ACC7EB99F9CD5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EB8D03D3B0236FBD01C7D8 /* libPods.a */; };
+		5E3880FB7A6AAFABC437818E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EB8D03D3B0236FBD01C7D8 /* libPods.a */; };
 		6443CB151C46E9880016F53E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB141C46E9880016F53E /* main.m */; };
 		6443CB181C46E9880016F53E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB171C46E9880016F53E /* AppDelegate.m */; };
 		6443CB1B1C46E9880016F53E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB1A1C46E9880016F53E /* ViewController.m */; };
@@ -15,6 +18,18 @@
 		6443CB231C46E9880016F53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6443CB211C46E9880016F53E /* LaunchScreen.storyboard */; };
 		6443CB2E1C46E9880016F53E /* Memory_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB2D1C46E9880016F53E /* Memory_GameTests.m */; };
 		6443CB391C46E9880016F53E /* Memory_GameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB381C46E9880016F53E /* Memory_GameUITests.m */; };
+		6443CB491C46F20D0016F53E /* FlickrHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB481C46F20D0016F53E /* FlickrHelper.m */; };
+		6443CB4A1C46F20D0016F53E /* FlickrHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB481C46F20D0016F53E /* FlickrHelper.m */; };
+		6443CB4B1C46F20D0016F53E /* FlickrHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB481C46F20D0016F53E /* FlickrHelper.m */; };
+		6443CB4F1C479B920016F53E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB4E1C479B920016F53E /* GameViewController.m */; };
+		6443CB501C479B920016F53E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB4E1C479B920016F53E /* GameViewController.m */; };
+		6443CB511C479B920016F53E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB4E1C479B920016F53E /* GameViewController.m */; };
+		6443CB591C47B4E60016F53E /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB581C47B4E60016F53E /* PhotoCollectionViewCell.m */; };
+		6443CB5A1C47B4E60016F53E /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB581C47B4E60016F53E /* PhotoCollectionViewCell.m */; };
+		6443CB5B1C47B4E60016F53E /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443CB581C47B4E60016F53E /* PhotoCollectionViewCell.m */; };
+		91066D764050CBF856863F3B /* Pods_Memory_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28616B5394EBD008C5DBE407 /* Pods_Memory_Game.framework */; };
+		A1260E19846CBAEDE4E137F7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EB8D03D3B0236FBD01C7D8 /* libPods.a */; };
+		BAE332B1FEE891408B2680E1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02EB8D03D3B0236FBD01C7D8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A9F8A2657FF8FB079EC6C8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		28616B5394EBD008C5DBE407 /* Pods_Memory_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memory_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6443CB101C46E9880016F53E /* Memory Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6443CB141C46E9880016F53E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6443CB161C46E9880016F53E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +69,14 @@
 		6443CB341C46E9880016F53E /* Memory GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6443CB381C46E9880016F53E /* Memory_GameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memory_GameUITests.m; sourceTree = "<group>"; };
 		6443CB3A1C46E9880016F53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6443CB461C46F20D0016F53E /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlickrAPIKey.h; path = Flickr/FlickrAPIKey.h; sourceTree = "<group>"; };
+		6443CB471C46F20D0016F53E /* FlickrHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlickrHelper.h; path = Flickr/FlickrHelper.h; sourceTree = "<group>"; };
+		6443CB481C46F20D0016F53E /* FlickrHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlickrHelper.m; path = Flickr/FlickrHelper.m; sourceTree = "<group>"; };
+		6443CB4D1C479B920016F53E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		6443CB4E1C479B920016F53E /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		6443CB571C47B4E60016F53E /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		6443CB581C47B4E60016F53E /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		7EEA09CBCCD55A621D120F1C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91066D764050CBF856863F3B /* Pods_Memory_Game.framework in Frameworks */,
+				58A32B63C82ACC7EB99F9CD5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +93,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226A14854F23BB74AC12BA4A /* (null) in Frameworks */,
+				A1260E19846CBAEDE4E137F7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +102,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE332B1FEE891408B2680E1 /* (null) in Frameworks */,
+				5E3880FB7A6AAFABC437818E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E1E83CDA014AE1BD4524E3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04A9F8A2657FF8FB079EC6C8 /* Pods.debug.xcconfig */,
+				7EEA09CBCCD55A621D120F1C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6443CB071C46E9880016F53E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				6443CB2C1C46E9880016F53E /* Memory GameTests */,
 				6443CB371C46E9880016F53E /* Memory GameUITests */,
 				6443CB111C46E9880016F53E /* Products */,
+				2E1E83CDA014AE1BD4524E3F /* Pods */,
+				88A45E14DCBDC5D71B6C2EE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +148,12 @@
 				6443CB171C46E9880016F53E /* AppDelegate.m */,
 				6443CB191C46E9880016F53E /* ViewController.h */,
 				6443CB1A1C46E9880016F53E /* ViewController.m */,
+				6443CB4D1C479B920016F53E /* GameViewController.h */,
+				6443CB4E1C479B920016F53E /* GameViewController.m */,
+				6443CB571C47B4E60016F53E /* PhotoCollectionViewCell.h */,
+				6443CB581C47B4E60016F53E /* PhotoCollectionViewCell.m */,
 				6443CB1C1C46E9880016F53E /* Main.storyboard */,
+				6443CB4C1C46F2130016F53E /* Flickr */,
 				6443CB1F1C46E9880016F53E /* Assets.xcassets */,
 				6443CB211C46E9880016F53E /* LaunchScreen.storyboard */,
 				6443CB241C46E9880016F53E /* Info.plist */,
@@ -140,6 +188,25 @@
 			path = "Memory GameUITests";
 			sourceTree = "<group>";
 		};
+		6443CB4C1C46F2130016F53E /* Flickr */ = {
+			isa = PBXGroup;
+			children = (
+				6443CB461C46F20D0016F53E /* FlickrAPIKey.h */,
+				6443CB471C46F20D0016F53E /* FlickrHelper.h */,
+				6443CB481C46F20D0016F53E /* FlickrHelper.m */,
+			);
+			name = Flickr;
+			sourceTree = "<group>";
+		};
+		88A45E14DCBDC5D71B6C2EE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28616B5394EBD008C5DBE407 /* Pods_Memory_Game.framework */,
+				02EB8D03D3B0236FBD01C7D8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6443CB3D1C46E9880016F53E /* Build configuration list for PBXNativeTarget "Memory Game" */;
 			buildPhases = (
+				241D06ECAF209A81F16198BB /* Check Pods Manifest.lock */,
 				6443CB0C1C46E9880016F53E /* Sources */,
 				6443CB0D1C46E9880016F53E /* Frameworks */,
 				6443CB0E1C46E9880016F53E /* Resources */,
+				1784785B2405590DA03FD592 /* Embed Pods Frameworks */,
+				239BE270D6B24853B51B7BC1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6443CB401C46E9880016F53E /* Build configuration list for PBXNativeTarget "Memory GameTests" */;
 			buildPhases = (
+				291801D0491DC948E3A0E6C7 /* Check Pods Manifest.lock */,
 				6443CB251C46E9880016F53E /* Sources */,
 				6443CB261C46E9880016F53E /* Frameworks */,
 				6443CB271C46E9880016F53E /* Resources */,
+				9EF3466357F4189256B82703 /* Embed Pods Frameworks */,
+				D67BD6EFCBE5F8FB9C6402E3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6443CB431C46E9880016F53E /* Build configuration list for PBXNativeTarget "Memory GameUITests" */;
 			buildPhases = (
+				AE315BF34B2672C70EA3AE28 /* Check Pods Manifest.lock */,
 				6443CB301C46E9880016F53E /* Sources */,
 				6443CB311C46E9880016F53E /* Frameworks */,
 				6443CB321C46E9880016F53E /* Resources */,
+				3B62A1E0FFCFDB7F5BC716E5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,11 +340,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1784785B2405590DA03FD592 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		239BE270D6B24853B51B7BC1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		241D06ECAF209A81F16198BB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		291801D0491DC948E3A0E6C7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B62A1E0FFCFDB7F5BC716E5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EF3466357F4189256B82703 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE315BF34B2672C70EA3AE28 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D67BD6EFCBE5F8FB9C6402E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6443CB0C1C46E9880016F53E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6443CB591C47B4E60016F53E /* PhotoCollectionViewCell.m in Sources */,
+				6443CB4F1C479B920016F53E /* GameViewController.m in Sources */,
+				6443CB491C46F20D0016F53E /* FlickrHelper.m in Sources */,
 				6443CB1B1C46E9880016F53E /* ViewController.m in Sources */,
 				6443CB181C46E9880016F53E /* AppDelegate.m in Sources */,
 				6443CB151C46E9880016F53E /* main.m in Sources */,
@@ -280,6 +481,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6443CB4A1C46F20D0016F53E /* FlickrHelper.m in Sources */,
+				6443CB501C479B920016F53E /* GameViewController.m in Sources */,
+				6443CB5A1C47B4E60016F53E /* PhotoCollectionViewCell.m in Sources */,
 				6443CB2E1C46E9880016F53E /* Memory_GameTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +492,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6443CB4B1C46F20D0016F53E /* FlickrHelper.m in Sources */,
+				6443CB511C479B920016F53E /* GameViewController.m in Sources */,
+				6443CB5B1C47B4E60016F53E /* PhotoCollectionViewCell.m in Sources */,
 				6443CB391C46E9880016F53E /* Memory_GameUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +618,7 @@
 		};
 		6443CB3E1C46E9880016F53E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A9F8A2657FF8FB079EC6C8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Memory Game/Info.plist";
@@ -422,6 +630,7 @@
 		};
 		6443CB3F1C46E9880016F53E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EEA09CBCCD55A621D120F1C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Memory Game/Info.plist";
@@ -433,6 +642,7 @@
 		};
 		6443CB411C46E9880016F53E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A9F8A2657FF8FB079EC6C8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Memory GameTests/Info.plist";
@@ -445,6 +655,7 @@
 		};
 		6443CB421C46E9880016F53E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EEA09CBCCD55A621D120F1C /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Memory GameTests/Info.plist";
@@ -457,6 +668,7 @@
 		};
 		6443CB441C46E9880016F53E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A9F8A2657FF8FB079EC6C8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Memory GameUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -469,6 +681,7 @@
 		};
 		6443CB451C46E9880016F53E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EEA09CBCCD55A621D120F1C /* Pods.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Memory GameUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +711,7 @@
 				6443CB3F1C46E9880016F53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6443CB401C46E9880016F53E /* Build configuration list for PBXNativeTarget "Memory GameTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +720,7 @@
 				6443CB421C46E9880016F53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6443CB431C46E9880016F53E /* Build configuration list for PBXNativeTarget "Memory GameUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +729,7 @@
 				6443CB451C46E9880016F53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
